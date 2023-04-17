@@ -1,11 +1,18 @@
+@import "../../breakpoints.scss";
+
 .navbar {
     background-color: #181315 !important;
-}
 
-.navbar a {
-    color: #E90064 !important;
-}
+    a {
+        color: #E90064 !important;
 
-nav li {
-    margin-right: 70px;
+        @include lg {
+            font-size: 3rem;
+            font-weight: 100;
+        }
+    }
+
+    li {
+        margin-right: 70px;
+    }
 }

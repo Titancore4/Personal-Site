@@ -14,23 +14,22 @@ const Carousel = ({CarouselItems}) => {
 
         
     const nextSlide = () => {
-        if (counter !== 3) {
+        if (counter !== CarouselItems.length - 1) {
             setCounter(counter + 1)
         }
     }
 
-
     // document.getElementsByClassName("carousel-item")
 
     return (
-        <div className="carousel-container">
+        <div className="carousel-container" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+
+            <div className="main-container">
+                <button onClick={prevSlide} style={{visibility: counter === 0 ? "hidden" : "visible"}}>&#10094;</button>
             <div className="carousel">
                 {CarouselItems.map((item) => (<CarouselItem key={item.id} item={{...item, counter}} counter={counter} />))}
             </div>
-
-            <div className="buttons">
-                <button onClick={prevSlide} style={{visibility: counter === 0 ? "hidden" : "visible"}}>&#10094;</button>
-                <button onClick={nextSlide} style={{visibility: counter === 3 ? "hidden" : "visible"}}>&#10095;</button>
+                <button onClick={nextSlide} style={{visibility: counter === CarouselItems.length - 1 ? "hidden" : "visible"}}>&#10095;</button>
             </div>
         </div>
     )

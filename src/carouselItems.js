@@ -2,6 +2,8 @@ import python from "./images/certificates/Python Course Certificate.jpg"
 import web from "./images/certificates/Web Development Course Certificate Image.jpg"
 import hack from "./images/certificates/EthicalHackingCertificate.jpg"
 import ml from "./images/certificates/Machine Learning.jpg"
+import tpGold from "./images/certificates/RataType Gold.webp"
+// import tpPlat from "./images/certificates/RataType Plat.webp"
 
 const CarouselItems = [
     {
@@ -20,6 +22,14 @@ const CarouselItems = [
         id: 4,
         image: ml
     },
+    {
+        id: 5,
+        image: tpGold
+    },
+    // {
+    //     id: 6,
+    //     image: tpPlat
+    // },
 ]
 
 export default CarouselItems;

@@ -1,114 +1,151 @@
+@import "../../breakpoints.scss";
+
 .intro {
-    position: relative;
-    color: rgb(82, 46, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(27, 18, 18, 0.9);
     background-color: #ff5f9e;
     background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
-    height: 1000px;
     width: 100%;
     text-align: center;
-}
 
-h1 {
-    position: relative;
-    color: rgb(82, 46, 55);
-    top: 38%;
-    font-size: 8rem;
+    h1 {
+        margin: 31.25rem auto;
+        font-size: 8rem;
+    }
 }
 
 .name {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     color: rgb(255, 255, 255);
     background-color: #000000;
-    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
-    height: 1000px;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
     width: 100%;
     text-align: center;
-}
 
-.name h1 {
-    color: white;
-}
+    .detail {
+        margin: 500px auto;
 
-.name h3 {
-    position: relative;
-    color: white;
-    top: 45%;
-}
-.name span {
-    color: #E90064;
+        h1 {
+            font-size: 7rem;
+            color: white;
+        }
+    
+        h3 {
+            margin-top: 1.25rem;
+            color: white;
+
+            @include lg {
+                font-size: 3rem;
+            }
+        }
+    
+        span {
+            color: #E90064;
+        }
+    }
 }
 
 .content {
-    position:relative;
-    background-color: #c95a86;
-    background-image: url("https://www.transparenttextures.com/patterns/triangles.png");
-    height: 1000px;
-    width: 100%;
-    text-align: center; 
-}
-
-.content h2 {
-    position: relative;
-    text-align: left;
-    color:rgb(82, 46, 55);
-    font-size: 3rem;
-    top: 6%;
-    margin-left: 3%;
-}
-
-.content ul li {
-    position: relative;
-    display: inline-block;
-    margin: auto 150px;
-    top: 350px;
-    color:rgb(82, 46, 55)
-}
-
-.content ul li h4 {
-    position: relative;
-    top: 120px;
-    font-size: 2rem;
-}
-
-.content ul li i {
-    position: relative;
-    scale: 9;
-}
-
-.tools {
-    position: relative;
-    color: rgb(255, 255, 255);
-    background-color: #000000;
-    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    flex-direction: column;
+    background-color: #c42e6a;
+    background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
     height: 1000px;
     width: 100%;
     text-align: center;
+
+    h2 {
+        position: absolute;
+        color:rgb(27, 18, 18, 0.9);
+        margin-top: 30px;
+        color:#E90064;
+        font-size: 3rem;
+        font-weight: 100;
+        padding: 30px 60px;
+        border-top-right-radius: 80px;
+        border-bottom-right-radius: 80px;
+        background-color: black;
+    }
+
+    .features {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+        padding-top: 130px;
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+    
+            li {
+                color:rgb(32, 15, 20);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin: 50px 120px;
+    
+                h4 {
+                    margin-top: 20px;
+                    font-size: 2rem;
+                }
+    
+                i {
+                    font-size: 8rem;
+                }
+            }
+        }
+    }
 }
 
-.tools h3 {
-    position: relative;
-    text-align: left;
-    color: white;
-    font-size: 3rem;
-    top: 6%;
-    margin-left: 3%;
-    background: linear-gradient(to bottom, #7ca2f3, #E90064);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
+.tools-container {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-exa.png");
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
 
-.tools i {
-    position: relative;
-    top: 45%;
-    scale: 14;
-    margin: auto 10%;
-    background: linear-gradient(to bottom, #7ca2f3, #E90064);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    h3 {
+        color: white;
+        margin-top: 40px;
+        margin-bottom: 100px;
+        font-size: 3rem;
+        background: linear-gradient(to bottom, #7ca2f3, #E90064);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .tools {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 200px;
+    
+        i {
+            font-size: 10rem;
+            margin: 50px 120px;
+            background: linear-gradient(to bottom, #7ca2f3, #E90064);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        } 
+    }   
 }
 
 .end {
-    position: relative;
     color: rgb(255, 255, 255);
     background-color: #000000;
     background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
@@ -118,7 +155,7 @@ h1 {
 }
 
 hr {
-    border-color: #E90064;
+    border: 1px solid red;
     border-width: 5px;
     margin: 0;
     padding: 0;
