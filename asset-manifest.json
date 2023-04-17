@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Personal-Site/static/css/main.f0aac445.css",
+    "main.js": "/Personal-Site/static/js/main.389ae3cd.js",
+    "static/js/787.1d5e114e.chunk.js": "/Personal-Site/static/js/787.1d5e114e.chunk.js",
+    "static/media/EthicalHackingCertificate.jpg": "/Personal-Site/static/media/EthicalHackingCertificate.6489900d771d574bf90c.jpg",
+    "static/media/Python Course Certificate.jpg": "/Personal-Site/static/media/Python Course Certificate.d12140a1123209b7a741.jpg",
+    "static/media/Machine Learning.jpg": "/Personal-Site/static/media/Machine Learning.e9e2879f443b495856ec.jpg",
+    "static/media/Web Development Course Certificate Image.jpg": "/Personal-Site/static/media/Web Development Course Certificate Image.346559ccb1bfc140df4d.jpg",
+    "static/media/RataType Gold.webp": "/Personal-Site/static/media/RataType Gold.09ff8cb82b3b4b83a6a2.webp",
+    "index.html": "/Personal-Site/index.html",
+    "main.f0aac445.css.map": "/Personal-Site/static/css/main.f0aac445.css.map",
+    "main.389ae3cd.js.map": "/Personal-Site/static/js/main.389ae3cd.js.map",
+    "787.1d5e114e.chunk.js.map": "/Personal-Site/static/js/787.1d5e114e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0aac445.css",
+    "static/js/main.389ae3cd.js"
+  ]
+}
