@@ -1,0 +1,125 @@
+.intro {
+    position: relative;
+    color: rgb(82, 46, 55);
+    background-color: #ff5f9e;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    position: relative;
+    color: rgb(82, 46, 55);
+    top: 38%;
+    font-size: 8rem;
+}
+
+.name {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+}
+
+.name h1 {
+    color: white;
+}
+
+.name h3 {
+    position: relative;
+    color: white;
+    top: 45%;
+}
+.name span {
+    color: #E90064;
+}
+
+.content {
+    position:relative;
+    background-color: #c95a86;
+    background-image: url("https://www.transparenttextures.com/patterns/triangles.png");
+    height: 1000px;
+    width: 100%;
+    text-align: center; 
+}
+
+.content h2 {
+    position: relative;
+    text-align: left;
+    color:rgb(82, 46, 55);
+    font-size: 3rem;
+    top: 6%;
+    margin-left: 3%;
+}
+
+.content ul li {
+    position: relative;
+    display: inline-block;
+    margin: auto 150px;
+    top: 350px;
+    color:rgb(82, 46, 55)
+}
+
+.content ul li h4 {
+    position: relative;
+    top: 120px;
+    font-size: 2rem;
+}
+
+.content ul li i {
+    position: relative;
+    scale: 9;
+}
+
+.tools {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+}
+
+.tools h3 {
+    position: relative;
+    text-align: left;
+    color: white;
+    font-size: 3rem;
+    top: 6%;
+    margin-left: 3%;
+    background: linear-gradient(to bottom, #7ca2f3, #E90064);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.tools i {
+    position: relative;
+    top: 45%;
+    scale: 14;
+    margin: auto 10%;
+    background: linear-gradient(to bottom, #7ca2f3, #E90064);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.end {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+}
+
+hr {
+    border-color: #E90064;
+    border-width: 5px;
+    margin: 0;
+    padding: 0;
+}
