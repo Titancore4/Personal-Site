@@ -37,7 +37,7 @@ const Home = () => {
                             <h4>3D Animation</h4>
                         </li>
                         <li data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                        <i class="fa-solid fa-gamepad"></i>
+                        <i className="fa-solid fa-gamepad"></i>
                             <h4>Game Production</h4>
                         </li>
                     </ul>

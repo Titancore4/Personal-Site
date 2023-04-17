@@ -7,7 +7,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg bg-dark">
                 <div className="container-fluid">
 
-                    <a className="navbar-brand" href="#"><strong>My Website</strong></a>
+                    <a className="navbar-brand" href="/"><strong>My Website</strong></a>
                 
                 </div>
             </nav>
