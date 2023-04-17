@@ -1,0 +1,41 @@
+$ButtonDistance: 110%;
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+    flex-direction: column;
+
+    .carousel {
+        position: relative;
+        width: 1000px;
+        height: 700px;
+        overflow: hidden;
+    }
+
+    .buttons {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        button {
+            position: relative;
+            height: 700px;
+            width: 200px;
+            background-color: transparent;
+            font-size: 3rem;
+            border: none;
+            user-select: none;
+
+            &:first-child {
+                right: $ButtonDistance;
+            }
+
+            &:last-child {
+                left: $ButtonDistance;
+            }
+        }
+    }
+}
